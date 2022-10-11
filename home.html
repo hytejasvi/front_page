@@ -1,0 +1,33 @@
+<form method="post" enctype="multipart/form-data">
+  <link rel="stylesheet" type="text/css" href="tej.css">
+  <div style="text-align:center;width: 900px;height: 600px;margin: 210 auto;border-style: dotted;">
+  <br><br>
+  <label for="image_uploads" style="color:darkgrey;font-size:38px;">Choose AdminTech to upload</label><br><br>
+  <input type="checkbox" id="vm1" name="vm1" value="Bike">
+  <label for="vm1" style="color:blue;font-size:30px;"> vManage Admin tech</label><br><br>
+  <input type="file" id="files" name="files" multiple style="color:darkgrey;font-size:20px;"><br><br>
+  <input type="file" id="files" name="files" multiple style="color:darkgrey;font-size:20px;"><br><br>
+  <input type="file" id="files" name="files" multiple style="color:darkgrey;font-size:20px;"><br><br>
+  <input type="checkbox" id="vm2" name="vm2" value="Bike">
+  <label for="vm2" style="color:blue;font-size:30px;"> Device Admin tech</label><br><br>
+  <input type="file" id="files" name="files" multiple style="color:darkgrey;font-size:20px;"><br><br>
+  <input type="file" id="files" name="files" multiple style="color:darkgrey;font-size:20px;"><br><br>
+  <input type="file" id="files" name="files" multiple style="color:darkgrey;font-size:20px;"><br><br>
+  <script language="Javascript">
+  function timeout_trigger() {
+    location.href='https://www.google.com';
+  }
+
+function timeout_init() {
+    setTimeout('timeout_trigger()', 10000);
+}
+</script>
+<div class="spin-container">
+      <div class="spin" id="loader"></div>
+      <div class="spin" id="loader2"></div>
+      <div class="spin" id="loader3"></div>
+      <div class="spin" id="loader4"></div>
+      <span id="text">LOADING...</span>
+<input type="button" value="Submit" onclick="timeout_init()" />
+</div>
+</form>
